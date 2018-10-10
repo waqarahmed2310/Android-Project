@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="myTodo()">
+    <div class="container re">
+        <div class="row we">
+            <div class="col-12">
+                <h1 class="heading">Android Reminder</h1>
+            </div>
+            <div class="col-12" id="ui">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="input-group">
+                            <span class="input-group-addon wr" id="basic-addon3">Enter Plan</span>
+                            <input type="text" class="form-control" id="val" aria-describedby="basic-addon3">
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <button class="btn btn-primary" id="add_btn" onclick="addTodo();">
+                            <span class="glyphicon glyphicon-plus"></span> Plan</button>
+                        <button class="btn btn-danger" id="dlt_btn" onclick="delet()">
+                            <span class="glyphicon glyphicon-trash"></span> All</button>
+                    </div>
+
+                </div>
+
+            </div>
+               
+    <!-- <div class="display" id="todolist">
+
+    </div> -->
+
+            <div>
+                <ul class="display" id="todolist">
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBBSeK1cK5daPL7AGvohWywejWb4gPcjho",
+    authDomain: "mtodoapp.firebaseapp.com",
+    databaseURL: "https://mtodoapp.firebaseio.com",
+    projectId: "mtodoapp",
+    storageBucket: "mtodoapp.appspot.com",
+    messagingSenderId: "705376928472"
+  };
+  firebase.initializeApp(config);
+</script>
+ 
+    <script src="app.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

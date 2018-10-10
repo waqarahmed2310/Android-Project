@@ -1,0 +1,21 @@
+[debug] [2018-10-05T18:52:14.021Z] ----------------------------------------------------------------------
+[debug] [2018-10-05T18:52:14.027Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mm\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-10-05T18:52:14.027Z] CLI Version:   4.0.2
+[debug] [2018-10-05T18:52:14.027Z] Platform:      win32
+[debug] [2018-10-05T18:52:14.028Z] Node Version:  v10.6.0
+[debug] [2018-10-05T18:52:14.030Z] Time:          Fri Oct 05 2018 23:52:14 GMT+0500 (Pakistan Standard Time)
+[debug] [2018-10-05T18:52:14.030Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-05T18:52:14.111Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-10-05T18:52:14.114Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  G:\Waqar\6th\Android Development\project\Reminder
+

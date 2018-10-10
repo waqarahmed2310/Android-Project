@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+.background{
+
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:100%;
+	height:100vh;
+}
+.btn{
+	
+	color:white;
+	background-color:rgb(23, 20, 220);
+	font-family:Verdana, Geneva, sans-serif;
+	height:53px;
+	width:100%;
+	font-family: 'Courier New', Courier, monospace;
+	font-size:30px;
+
+}
+
+.btn:hover{
+	background-color:black;
+	color:white;
+	opacity:0.5;
+	font-family: 'Courier New', Courier, monospace;
+}
+.img{
+		
+	height:300px;
+	width:100%;
+}
+
+
+
+.mainform{
+	overflow:hidden;
+	display:none;
+	position:relative;
+	}
+	
+	.red-circle::before{
+		background-color:black;
+		opacity:0.5;
